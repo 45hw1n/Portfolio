@@ -1,0 +1,20 @@
+.Layout-container {
+  max-width: 1176px;
+  padding: 0 25px;
+}
+
+@media only screen and (min-width: 768px) {
+  .d-dsk {
+    display: block;
+  }
+
+  .d-mob {
+    display: none;
+  }  
+}
+
+@media only screen and (min-width: 992px) {
+  .Layout-container {
+    padding: 0;
+  }
+}
